@@ -82,7 +82,7 @@ fun digitNumber(number: Int): Int {
         clone /= 10
         num += 1
     }
-    return (num)
+    return num
 }
 
 /**
@@ -252,5 +252,5 @@ fun fibSequenceDigit(n: Int): Int {
             break
         } else continue
     }
-    return (number % 10)
+    return number % 10
 }
